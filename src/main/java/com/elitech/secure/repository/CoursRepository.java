@@ -8,4 +8,5 @@ import com.elitech.secure.model.Cours;
 
 public interface CoursRepository  extends JpaRepository<Cours, Long> {
 List<Cours> findByNom(String nom);
+
 }
